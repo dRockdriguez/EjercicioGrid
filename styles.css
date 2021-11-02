@@ -49,6 +49,7 @@ h1:nth-child(5) {
 h1:nth-child(6) {
     grid-row: 7;
     grid-column: 3;
+    padding-left: 1rem;
 }
 
 p {
@@ -66,7 +67,7 @@ p {
 }
 
 .third-p {
-    grid-row: 10 /12;
+    grid-row: 10 / 12;
     grid-column: 3;
 }
 
