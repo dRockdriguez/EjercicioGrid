@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    background-color: #3C00FB;
+    color: white;
+    width: 40%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1rem auto auto auto 1rem;
+    grid-template-rows: 1rem 3rem repeat(5, auto) 5rem 5rem auto auto 1rem;
+}
+
+.magenta {
+    background-color: #FF00FB;
+    grid-row: 4 / 11;
+    grid-column: 3 / 5;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h1:nth-child(1) {
+    grid-row: 2;
+    grid-column: 2 / 5;
+    text-align: right;
+}
+
+h1:nth-child(2) {
+    grid-row: 3;
+    grid-column: 2 / 5;
+    text-align: right;
+}
+
+h1:nth-child(3) {
+    grid-row: 4;
+    grid-column: 2 / 3;
+}
+
+h1:nth-child(4) {
+    grid-row: 5;
+    grid-column: 2;
+}
+
+h1:nth-child(5) {
+    grid-row: 6;
+    grid-column: 2;
+}
+
+h1:nth-child(6) {
+    grid-row: 7;
+    grid-column: 3;
+}
+
+p {
+    font-size: .5rem;
+}
+
+.first-p {
+    grid-row: 9;
+    grid-column: 2 / 4;
+}
+
+.second-p {
+    grid-row: 10 / 12;
+    grid-column: 2;
+}
+
+.third-p {
+    grid-row: 10 /12;
+    grid-column: 3;
+}
+
+.forth-p {
+    grid-row: 10 / 12;
+    grid-column: 4;
+}
