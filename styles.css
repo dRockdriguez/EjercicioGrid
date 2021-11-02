@@ -6,43 +6,39 @@
 .container {
     background-color: #3C00FB;
     color: white;
-    width: 40%;
+    width: 420px;
     margin: 0px auto;
     display: grid;
-    grid-template-columns: 1rem auto auto auto 1rem;
+    grid-template-columns: 1rem auto auto auto auto auto auto 1rem;
     grid-template-rows: 1rem 3rem repeat(5, auto) 5rem 5rem auto auto 1rem;
 }
 
 .magenta {
     background-color: #FF00FB;
     grid-row: 4 / 11;
-    grid-column: 3 / 5;
+    grid-column: 3 / 7;
 }
 
 h1 {
     font-size: 3rem;
+    font-weight: normal;
 }
 
 h1:nth-child(1) {
     grid-row: 2;
-    grid-column: 2 / 5;
+    grid-column: 2 / 7;
     text-align: right;
 }
 
 h1:nth-child(2) {
     grid-row: 3;
-    grid-column: 2 / 5;
+    grid-column: 2 / 7;
     text-align: right;
-}
-
-h1:nth-child(3) {
-    grid-row: 4;
-    grid-column: 2 / 3;
 }
 
 h1:nth-child(4) {
     grid-row: 5;
-    grid-column: 2;
+    grid-column: 2 / 4;
 }
 
 h1:nth-child(5) {
@@ -76,5 +72,5 @@ p {
 
 .forth-p {
     grid-row: 10 / 12;
-    grid-column: 4;
+    grid-column: 4 / 6;
 }
